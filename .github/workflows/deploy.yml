@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
       -name: Install and Build
         run: |
-          npm i -g pnpm 
+          npm i -g pnpm
           pnpm run init
           pnpm run build:doc
         env:
@@ -48,4 +48,4 @@ jobs:
           FOLDER: dist
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
-            
+
