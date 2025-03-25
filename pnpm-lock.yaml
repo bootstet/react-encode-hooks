@@ -41,6 +41,9 @@ importers:
       '@types/mockjs':
         specifier: ^1.0.7
         version: 1.0.10
+      '@types/node':
+        specifier: ^22.13.13
+        version: 22.13.13
       '@types/react-router':
         specifier: ^5.1.19
         version: 5.1.20
@@ -242,7 +245,7 @@ packages:
       react-dom: '>=16.13.1'
     dependencies:
       '@gcanvas/core': 1.0.0
-      classnames: 2.2.6
+      classnames: 2.5.1
       omit.js: 2.0.2
       prop-types: 15.8.1
       react: 18.3.1
@@ -3231,7 +3234,7 @@ packages:
   /@types/sax@1.2.7:
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
     dependencies:
-      '@types/node': 14.18.63
+      '@types/node': 22.13.13
     dev: true
 
   /@types/scheduler@0.16.8:
