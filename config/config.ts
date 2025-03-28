@@ -6,8 +6,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  // publicPath: '/',
-  publicPath: '/react-encode-hooks/',
+  publicPath: '/encode-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
@@ -21,13 +20,14 @@ export default {
   ],
   title: '印客学院 encode hooks',
   mode: 'site',
-  favicon: '/react-encode-hooks/avatar.png',
-  logo: '/react-encode-hooks/avatar.png',
+  favicon: '/encode-hooks/avatar.png',
+  logo: '/encode-hooks/avatar.png',
   dynamicImport: {},
   manifest: {},
   hash: true,
   alias: {
     encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    ['encode-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
@@ -42,6 +42,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
+    { title: 'GitHub', path: 'https://github.com/encode-studio-fe/encode-hooks' },
   ],
   menus: {
     '/': [

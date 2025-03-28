@@ -2,11 +2,6 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "rootDir": "src",
-    "composite": true,
-    "lib": [
-      "dom",
-      "es2015",
-      "es2015.iterable"
-    ]
+    "composite": true
   }
 }

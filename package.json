@@ -24,7 +24,7 @@
     "react",
     "hooks"
   ],
-  "author": "bootstet",
+  "author": "chenghuai",
   "license": "ISC",
   "devDependencies": {
     "@ant-design/icons": "^5.0.1",
@@ -38,7 +38,7 @@
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.4.0",
     "@types/mockjs": "^1.0.7",
-    "@types/node": "^22.13.13",
+    "@types/node": "^20.5.6",
     "@types/react-router": "^5.1.19",
     "@umijs/fabric": "^2.1.0",
     "antd": "^5.2.1",
