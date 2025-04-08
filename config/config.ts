@@ -1,3 +1,4 @@
+import { articleMenus } from './articleMenus';
 import { menus } from './hooks';
 
 export default {
@@ -30,7 +31,7 @@ export default {
     ['encode-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
-    includes: ['docs', 'packages/hooks/src'],
+    includes: ['docs', 'packages/hooks/src', 'packages/article/src'],
   },
   links: [
     {
@@ -42,6 +43,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
+    { title: 'article', path: '/article' },
     { title: 'GitHub', path: 'https://github.com/encode-studio-fe/encode-hooks' },
   ],
   menus: {
@@ -58,5 +60,6 @@ export default {
       },
     ],
     '/hooks': menus,
+    '/article': articleMenus,
   },
 };
